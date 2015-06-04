@@ -1,13 +1,11 @@
-#Generating SOAP Classes used by the Spring WS-SOAP Client
+##Generating SOAP Classes used by the Spring WS-SOAP Client
 
-1. On command line, navigate to this directory
-1. Generate the java source files issuing the command
-
+- On command line, navigate to this directory
+- Generate the java source files issuing the command
 ```sh
-mvn clean generate-sources
+ mvn clean generate-sources
 ```
-
-1. Copy the wsdl folder from the path {project.dir}target/generated-sources/xjc/org/sirmes/ to the convenient maven project package
+- Copy the wsdl folder from the path {project.dir}target/generated-sources/xjc/org/sirmes/ to the convenient maven project package
 
 References:
 
